@@ -1,0 +1,65 @@
+#choice{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.choice_header{
+    width: 100%;
+    height: 3.3rem;
+    background: #0396FE;
+    position:fixed;
+    top:0;
+}
+.choice_header h1{
+    width: 100%;
+    height: 3.3rem;
+    line-height: 3.3rem;
+    text-align: center;
+    font-size: 18px;
+    color: #FFFFFF;
+    font-weight: normal;
+}
+.choice_main{
+    width: auto;
+    padding: 0.26rem;
+    flex: 1;
+    margin: 4.74rem 0;
+}
+.item_detail{
+    width: 100%;
+    height: 19.11rem;
+    border: 1px solid #000000;
+    border-radius: 0.53rem;
+    margin-bottom: 0.53rem;
+}
+.bottom{
+    width: auto;
+    height: 2.66rem;
+    padding: 0.13rem 0.26rem;
+}
+.pic{
+    width: 100%;
+    height: 15rem;
+   img{
+       width:100%;
+       height: 100%;
+   }
+}
+.left{
+    width: 16.53rem;
+    height: 2.66rem;
+    font-size: 14px;
+    float: left;
+    .enName{
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+}
+.right{
+    width: 8rem;
+    font-size: 14px;
+    text-align: right;
+    float: right;
+    color: #EA758F;
+}

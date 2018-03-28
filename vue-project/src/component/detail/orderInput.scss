@@ -1,0 +1,143 @@
+
+.orderCom {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.orderBody {
+  flex: 1;
+  overflow-x: hidden;
+}
+.mint-header {
+  background:#0396FE;
+  color: #fff;
+  font-size: 1.8rem;
+}
+.hotelInformation,.roomInformation {
+  padding: 1.0rem;
+  border-bottom: 0.1rem solid #cdcdcd;
+  background: #fff;
+}
+.roomInformation {
+  padding-bottom: 4.0rem;
+  color: #494949;
+  p {
+    line-height: 2.4rem;
+    font-size: 1.2rem;
+  }
+  .totalNight {
+    color: #979797;
+    margin-top: 1.0rem;
+  }
+}
+.hotelInformation {
+ 
+  .hotelName {
+     position:relative;
+    line-height: 3.0rem;
+    font-size: 1.8rem;
+    color: #454545;
+    i{color:#ffa100;font-size:2.1rem;}
+     .starsNum{position:absolute;width:1.8rem;height:1.5rem;left:0;top:0.77rem;color:#fff;text-align:center;line-height: 1.5rem;font-size:0.8rem;}
+  }
+  .hotelAddr {
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 1.2rem;
+    color: #949494;
+  }
+ 
+}
+.roomInfor {
+  display: flex;
+  padding: 0.5rem 1.0rem;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  margin-bottom: 0.5rem;
+  background: #fff;
+  div {
+    flex: 1;
+    padding: 0 2.0rem;
+    &:first-child {
+      border-right: 0.1rem solid #cdcdcd;
+      text-align: center;
+    }
+    p {
+      &:first-child {
+        color: #979797;
+      }
+    }
+  }
+}
+.userInfor {
+  background: #fff;
+  line-height: 5.0rem;
+  color: #9a9a9a;
+  .userinformation {
+    display: flex;
+    border-bottom: 0.1rem solid #cdcdcd;
+    padding: 0  0.2rem;
+    i{color:#159696;}
+    span {
+      padding-left: 1.0rem;
+      width: 100%;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    div {
+      &:first-child {
+        flex: 1;
+      }
+      a {
+        display: block;
+        color: #9a9a9a;
+      }
+      &:last-child {
+        flex: 1;
+        padding:0 0.2rem 0 2rem;
+        white-space:nowrap;
+        text-align: right;
+        overflow:hidden;
+        text-overflow:ellipsis;
+      }
+    }
+  }
+  .userInput {
+    border-bottom: 0.1rem solid #cdcdcd;
+    display: none;
+    span {
+      width: 30%;
+    }
+    input {
+      display: inline-block;
+      width: 63%;
+    }
+  }
+}
+.attention {
+  text-align: center;
+  line-height: 4.0rem;
+  background: #fff;
+  margin-top: 0.5rem;
+  color: #bbb;
+}
+.orderFoot {
+  display: flex;
+  padding: 0 1.0rem;
+  div {
+    flex: 1;
+  }
+  .toPay {
+    display: block;
+    background:#0396FE;
+    color: #fff;
+    width: 10.0rem;
+    line-height: 4.0rem;
+    margin-left: 8.0rem;
+    text-align: center;
+    border-radius: 2.0rem;
+  }
+}
